@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         TextView player = (TextView) findViewById(R.id.player);
         // Set a click listener on the player TextView
         player.setOnClickListener(new View.OnClickListener() {
-            //The method that executes when the numbers category is clicked on:
+            //The method that executes when the Play Now TextView is clicked on:
             @Override
             public void onClick(View view) {
                 Intent openPlayerActivity = new Intent(MainActivity.this, PlaySong.class);
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //onClick listener for openMediaCategory activity
-        // Find the View that shows the avaialable media category activity
+        // Find the View that shows the media category activity
         TextView media = (TextView) findViewById(R.id.media);
         // Set a click listener on media view
         media.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         TextView buyNow = (TextView) findViewById(R.id.buy);
         // Set a click listener on Buy Now Activity
         buyNow.setOnClickListener(new View.OnClickListener() {
-            //Code to run when Colors category is clicked on
+            //Code to run when the Buy Now TextView is clicked on
             @Override
             public void onClick(View view) {
                 Intent openbuyNow = new Intent(MainActivity.this, BuyNow.class);
@@ -58,10 +58,9 @@ public class MainActivity extends AppCompatActivity {
         //onClick listener for open Recently Played activity
         // Find the View that shows the Recently Played activity
         TextView recents = (TextView) findViewById(R.id.recent);
-
-        // Set a click listener on Family Members View
+        // Set a click listener on Recently Played TextView
         recents.setOnClickListener(new View.OnClickListener() {
-            //Code to run when Phrases category is clicked on
+            //Code to run when the Recently Played TextView is clicked on
             @Override
             public void onClick(View view) {
                 Intent openRecentlyPlayed = new Intent(MainActivity.this, RecentlyPlayed.class);

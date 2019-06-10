@@ -6,10 +6,10 @@
     <string name="activity_recents">Recently Played</string>
 
     <!-- Activity name for the the buy activity [CHAR LIMIT=20] -->
-    <string name="activity_buy">Buy Now!</string>
+    <string name="activity_buy">Buy More!</string>
 
     <!-- Activity name for the player activity [CHAR LIMIT=20] -->
-    <string name="activity_player">Play</string>
+    <string name="activity_player">Play Now</string>
 
     <!-- Activity name for the media categories [CHAR LIMIT=20] -->
     <string name="activity_media">Media Catalog</string>

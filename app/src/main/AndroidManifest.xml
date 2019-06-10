@@ -9,11 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Favorites"></activity>
-        <activity android:name=".RecentlyPlayed" />
-        <activity android:name=".BuyNow" />
-        <activity android:name=".MediaCategories" />
-        <activity android:name=".PlaySong" />
+
+        <activity android:name=".RecentlyPlayed"
+            android:label="@string/activity_recents"/>
+        <activity android:name=".BuyNow"
+            android:label="@string/activity_buy"/>
+        <activity android:name=".MediaCategories"
+            android:label="@string/activity_media"/>
+        <activity android:name=".PlaySong"
+            android:label="@string/activity_player"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
