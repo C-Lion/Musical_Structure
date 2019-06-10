@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Music Player</string>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Media Player</string>
+
+    <!-- Activity name for list of recently played [CHAR LIMIT=20] -->
+    <string name="activity_recents">Recently Played</string>
+
+    <!-- Activity name for the the buy activity [CHAR LIMIT=20] -->
+    <string name="activity_buy">Buy Now!</string>
+
+    <!-- Activity name for the player activity [CHAR LIMIT=20] -->
+    <string name="activity_player">Play</string>
+
+    <!-- Activity name for the media categories [CHAR LIMIT=20] -->
+    <string name="activity_media">Media Catalog</string>
 </resources>
