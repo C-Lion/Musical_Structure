@@ -4,6 +4,80 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
     tools:context=".PlaySong">
 
+    <TextView
+        style="@style/ActivityStyle"
+        android:background="@color/player_activity"
+        android:text="@string/desc_player_activity"
+        android:color="@color/favorites_background"
+        android:textColor="@color/favorites_background"/>
+
+    <TextView
+        style="@style/ActivityStyle"
+        android:background="@color/song_background"
+        android:text="@string/currentFileName"
+        android:textColor="@color/favorites_background"/>
+
+    <TextView
+        style="@style/ActivityStyle"
+        android:background="@color/player_activity"
+        android:text="@string/currentPerformer"
+        android:textColor="@color/favorites_background"/>
+
+    <TextView
+        style="@style/ActivityStyle"
+        android:background="@color/song_background"
+        android:text="@string/currentCategory"
+        android:textColor="@color/favorites_background"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/favorites_background" >
+
+        <CheckBox
+            android:id="@+id/checkBoxFavorites"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+             />
+
+        <TextView
+            android:id="@+id/textView_Favorites_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:padding="16dp"
+            android:text="Favorite"
+            android:textSize="25sp"
+            android:textColor="@android:color/white"
+            android:background="favorites_background" />
+    </LinearLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/playStopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:src="@drawable/playStop" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newSelection"
+            android:layout_below="@+id/playStopButton" />
+    </RelativeLayout>
+
 </LinearLayout>
+

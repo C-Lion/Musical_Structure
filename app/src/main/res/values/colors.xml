@@ -11,6 +11,8 @@
 
     <!-- Background color for the player activity -->
     <color name="player_activity">#FD8E09</color>
+    <color name="song_background">#FEC888</color>
+    <color name="favorites_background">#0977FD</color>
 
     <!-- Background color for the media type activity -->
     <color name="media_activity">#379237</color>

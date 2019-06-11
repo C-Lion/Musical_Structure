@@ -2,15 +2,25 @@
     <!-- Title for the application. [CHAR LIMIT=12] -->
     <string name="app_name">Media Player</string>
 
-    <!-- Activity name for list of recently played [CHAR LIMIT=20] -->
+    <!-- Activity name for list of recently played on main activity[CHAR LIMIT=20] -->
     <string name="activity_recents">Recently Played</string>
 
-    <!-- Activity name for the the buy activity [CHAR LIMIT=20] -->
+    <!-- Activity name for the the buy activity on main activity[CHAR LIMIT=20] -->
     <string name="activity_buy">Buy More!</string>
 
-    <!-- Activity name for the player activity [CHAR LIMIT=20] -->
+    <!-- Activity name for the player activity on main activity [CHAR LIMIT=20] -->
     <string name="activity_player">Play Now</string>
+    <!-- Strings on activity_play_song activity [CHAR LIMIT=20] -->
+    <string name="desc_player_activity">Now Playing your selected media file:</string>
+    <string name="currentFileName">Hey Jude.mp3</string>
+    <string name="currentPerformer">The Beatles</string>
+    <string name="currentCategory">Rock</string>
+    <string name="newSelection">Select from Library</string>
 
-    <!-- Activity name for the media categories [CHAR LIMIT=20] -->
+
+
+
+
+    <!-- Activity name for the media categories on main activity [CHAR LIMIT=20] -->
     <string name="activity_media">Media Catalog</string>
 </resources>
