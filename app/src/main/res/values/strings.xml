@@ -15,6 +15,7 @@
     <string name="currentFileName">Hey Jude.mp3</string>
     <string name="currentPerformer">The Beatles</string>
     <string name="currentCategory">Rock</string>
+    <string name="checkbox_label">Add to Favorites</string>
     <string name="newSelection">Select from Library</string>
 
 

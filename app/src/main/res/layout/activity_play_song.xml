@@ -12,32 +12,32 @@
         style="@style/ActivityStyle"
         android:background="@color/player_activity"
         android:text="@string/desc_player_activity"
-        android:color="@color/favorites_background"
-        android:textColor="@color/favorites_background"/>
+        android:color="@android:color/white" />
 
     <TextView
         style="@style/ActivityStyle"
         android:background="@color/song_background"
         android:text="@string/currentFileName"
-        android:textColor="@color/favorites_background"/>
+        android:color="@android:color/white"/>
 
     <TextView
         style="@style/ActivityStyle"
         android:background="@color/player_activity"
         android:text="@string/currentPerformer"
-        android:textColor="@color/favorites_background"/>
+        android:color="@android:color/white"/>
 
     <TextView
         style="@style/ActivityStyle"
         android:background="@color/song_background"
         android:text="@string/currentCategory"
-        android:textColor="@color/favorites_background"/>
+        android:color="@android:color/white"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:background="@color/favorites_background" >
+        android:color="@android:color/white"
+        android:background="@color/favorites_background">
 
         <CheckBox
             android:id="@+id/checkBoxFavorites"
@@ -54,10 +54,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="4"
             android:padding="16dp"
-            android:text="Favorite"
-            android:textSize="25sp"
+            android:text="@string/checkbox_label"
             android:textColor="@android:color/white"
-            android:background="@color/favorites_background" />
+            android:textSize="25sp" />
     </LinearLayout>
 
     <RelativeLayout

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- Primary color of the app (shown in the app bar) -->
-    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimary">#A85B00</color>
 
     <!-- Primary dark color of the app (shown in the status bar) -->
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark">#663300</color>
 
     <!-- Background color for app -->
-    <color name="background">#D81B60</color>
+    <color name="background">#ADC1D8</color>
 
     <!-- Background color for the player activity -->
-    <color name="player_activity">#FD8E09</color>
-    <color name="song_background">#FEC888</color>
-    <color name="favorites_background">#0977FD</color>
+    <color name="player_activity">#663300</color>
+    <color name="song_background">#556677</color>
+    <color name="favorites_background">#225599</color>
 
     <!-- Background color for the media type activity -->
-    <color name="media_activity">#379237</color>
+    <color name="media_activity">#885511</color>
 
     <!-- Background color for the buy acitivity -->
-    <color name="buy_activity">#8800A0</color>
+    <color name="buy_activity">#AA9988</color>
 
     <!-- Background color for the recent activity -->
-    <color name="recents_activity">#16AFCA</color>
+    <color name="recents_activity">#114488</color>
 </resources>
