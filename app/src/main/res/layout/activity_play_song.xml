@@ -46,7 +46,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:layout_weight="1"
-             />
+            android:buttonTint="@android:color/white"/>
 
         <TextView
             android:id="@+id/textView_Favorites_label"
@@ -57,7 +57,7 @@
             android:text="Favorite"
             android:textSize="25sp"
             android:textColor="@android:color/white"
-            android:background="favorites_background" />
+            android:background="@color/favorites_background" />
     </LinearLayout>
 
     <RelativeLayout
@@ -70,7 +70,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="32dp"
-            android:src="@drawable/playStop" />
+            android:src="@drawable/playstop" />
 
         <Button
             android:layout_width="wrap_content"
