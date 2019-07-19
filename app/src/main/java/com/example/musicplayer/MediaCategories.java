@@ -14,11 +14,11 @@ public class MediaCategories extends AppCompatActivity {
         //Sets content of the activity to use activity_media_categories.xml layout file
         setContentView(R.layout.activity_media_categories);
 
-        //onClick listener for openPlayer activity
-        //First find the View that shows the Player activity link area:
-        TextView player = (TextView) findViewById(R.id.MediaBackToHome);
+        //onClick listener for Return to Home activity
+        //First find the View that shows the Return to Home activity link area:
+        TextView MediaBackToHome = (TextView) findViewById(R.id.MediaBackToHome);
         // Set a click listener on the player TextView
-        player.setOnClickListener(new View.OnClickListener() {
+        MediaBackToHome.setOnClickListener(new View.OnClickListener() {
             //The method that executes when the Play Now TextView is clicked on:
             @Override
             public void onClick(View view) {
