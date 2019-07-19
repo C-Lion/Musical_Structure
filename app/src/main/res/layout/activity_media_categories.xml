@@ -9,7 +9,7 @@
     tools:context=".MediaCategories">
 
     <TextView
-        android:id="@+id/backToHome"
+        android:id="@+id/MediaBackToHome"
         style="@style/ActivityStyle"
         android:background="@color/player_activity"
         android:text="@string/goHome" />

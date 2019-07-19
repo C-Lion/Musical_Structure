@@ -8,4 +8,22 @@
     android:orientation="vertical"
     tools:context=".RecentlyPlayed">
 
+    <TextView
+        android:id="@+id/recentBackToHome"
+        style="@style/ActivityStyle"
+        android:background="@color/player_activity"
+        android:text="@string/goHome" />
+
+    <TextView
+        android:id="@+id/RecentsTop10"
+        style="@style/ActivityStyle"
+        android:background="@color/media_activity"
+        android:text="@string/displayTop10Favorites" />
+
+    <TextView
+        android:id="@+id/RecentsALL"
+        style="@style/ActivityStyle"
+        android:background="@color/buy_activity"
+        android:text="@string/displayTop10ofALL" />
+
 </LinearLayout>

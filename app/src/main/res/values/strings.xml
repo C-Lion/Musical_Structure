@@ -19,7 +19,7 @@
 
 
     <!-- Strings on activity_media_categories (Media Catalog) -->
-    <!-- Reuse: <string name="goHome">Return to Home Activity</string> -->
+    <!-- Reuse: <string name="goHome"> -->
     <string name="displayTop10Favorites">See my top 10 Favorites</string>
     <string name="displayFullMediaCatalog">Go To Full Media Catalog</string>
 
@@ -35,6 +35,10 @@
 
 
     <!-- Strings on activity_recently_played (Recently Played) -->
+    <!-- Reuse: <string name="goHome"> -->
+    <!-- Reuse: <string name="displayTop10Favorites"> -->
+    <string name="displayTop10ofALL">See my top 10: faves or not!</string>
+
 
 
 

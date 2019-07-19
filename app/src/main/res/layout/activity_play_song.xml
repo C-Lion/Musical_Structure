@@ -79,7 +79,7 @@
             android:layout_below="@+id/playStopButton" />
 
         <Button
-            android:id="@+id/goHomeButton"
+            android:id="@+id/PlayerBackToHomeButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/goHome"
