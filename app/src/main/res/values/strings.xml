@@ -19,18 +19,19 @@
 
 
     <!-- Strings on activity_media_categories (Media Catalog) -->
-
-
+    <!-- Reuse: <string name="goHome">Return to Home Activity</string> -->
+    <string name="displayTop10Favorites">See my top 10 Favorites</string>
+    <string name="displayFullMediaCatalog">Go To Full Media Catalog</string>
 
 
     <!-- Strings on activity_buy-now (Buy More Songs) -->
+    <string name="notReadyToCheckout">OOPS! Not ready to buy yet: Please take me back Home!</string>
     <string name="desc_buy_activity">Use Google Pay to buy songs:</string>
     <string name="pay_step_one">1. Add Google Pay library to list of dependencies</string>
     <string name="pay_step_three">3. Only after isReadyToPay returns true, display this G Pay Button</string>
     <string name="pay_step_four">4. Click on G Pay to loadPaymentData(request)</string>
     <string name="pay_step_five">5. Payment data object is returned as an Activity result and token</string>
-
-    <string name="ready_to_pay">Checkout</string>
+    <string name="ready_to_pay">Ready to Checkout</string>
 
 
     <!-- Strings on activity_recently_played (Recently Played) -->

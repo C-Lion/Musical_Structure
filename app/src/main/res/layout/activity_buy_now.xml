@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +8,21 @@
     android:background="@color/background"
     android:orientation="vertical"
     tools:context=".BuyNow">
+
+    <TextView
+        style="@style/ActivityStyle"
+        android:id="@+id/NotReadyToPay"
+        android:layout_width="match_parent"
+        android:background="@color/favorites_background"
+        android:text="@string/notReadyToCheckout" />
+
+    <CheckBox
+        style="@style/ActivityStyle"
+        android:id="@+id/checkboxReadyToPay"
+        android:layout_width="match_parent"
+        android:background="@color/background"
+        android:text="@string/ready_to_pay" />
+
 
     <TextView
         style="@style/ActivityStyle"
@@ -37,13 +53,6 @@
         android:background="@color/player_activity"
         android:text="@string/pay_step_five"
         android:color="@android:color/white"/>
-
-    <TextView
-        style="@style/ActivityStyle"
-        android:id="@+id/isReadyToPay"
-        android:layout_width="match_parent"
-        android:background="@color/favorites_background"
-        android:text="@string/ready_to_pay" />
 
         <!-- ONLY APPEARS IF isReadyToPay() returns true -->
     <ImageButton
