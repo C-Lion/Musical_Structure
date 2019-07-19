@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //onClick listener for openPlayer activity
-        //First find the View that shows the Play activity link area:
+        //First find the View that shows the Player activity link area:
         TextView player = (TextView) findViewById(R.id.player);
         // Set a click listener on the player TextView
         player.setOnClickListener(new View.OnClickListener() {

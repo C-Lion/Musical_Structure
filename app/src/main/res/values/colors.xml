@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Thanks to http://www.perbang.dk/color+scheme/ for the palattes info-->
 <resources>
     <!-- Primary color of the app (shown in the app bar) -->
     <color name="colorPrimary">#A85B00</color>

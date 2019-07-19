@@ -8,4 +8,49 @@
     android:orientation="vertical"
     tools:context=".BuyNow">
 
+    <TextView
+        style="@style/ActivityStyle"
+        android:background="@color/player_activity"
+        android:text="@string/desc_buy_activity"
+        android:color="@android:color/white" />
+
+    <TextView
+        style="@style/ActivityStyle"
+        android:background="@color/song_background"
+        android:text="@string/pay_step_one"
+        android:color="@android:color/white"/>
+
+    <TextView
+        style="@style/ActivityStyle"
+        android:background="@color/player_activity"
+        android:text="@string/pay_step_three"
+        android:color="@android:color/white"/>
+
+    <TextView
+        style="@style/ActivityStyle"
+        android:background="@color/song_background"
+        android:text="@string/pay_step_four"
+        android:color="@android:color/white"/>
+
+    <TextView
+        style="@style/ActivityStyle"
+        android:background="@color/player_activity"
+        android:text="@string/pay_step_five"
+        android:color="@android:color/white"/>
+
+    <TextView
+        style="@style/ActivityStyle"
+        android:id="@+id/isReadyToPay"
+        android:layout_width="match_parent"
+        android:background="@color/favorites_background"
+        android:text="@string/ready_to_pay" />
+
+        <!-- ONLY APPEARS IF isReadyToPay() returns true -->
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:src="@drawable/googlepay"
+        android:layout_below="@+id/isReadyToPay" />
+
 </LinearLayout>
