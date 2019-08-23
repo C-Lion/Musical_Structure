@@ -3,6 +3,12 @@
     <string name="app_name">Media Player</string>
 
     <!-- Strings for activity_main -->
+    <string name="activity_main_label">Main (Home) Acivity</string>
+    <string name="activity_main_description">
+        The Home Page or Main Activity displays four options for the user.\n
+        User may select anywhere within the corresponding button/text area.\n
+        Each button is the entire colored text area enclosing the label.
+    </string>
     <string name="activity_player">Play Now</string>
     <string name="activity_media">Media Catalog</string>
     <string name="activity_buy">Buy More Songs</string>
