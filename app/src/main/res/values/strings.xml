@@ -15,6 +15,19 @@
     <string name="activity_recents">Recently Played</string>
 
     <!-- Strings on activity_play_song (Play Now) -->
+    <string name="activity_play_song_label">Play Now Acivity</string>
+    <string name="activity_play_song_description">
+        The first TextViews will displays info about the currently playing song.\n
+        If nothing is playing, the info from the last file played will display.\n
+        User may select a check box to add the current file to the favorites list.\n
+        The user may select the play/stop button to start or stop playing the current file.\n
+        If current file is not the desired one, user can user button to go to select\n
+        a file from the library. \n
+        At the bottom of the screen, user can select button to return to the home activity.
+    </string>
+
+
+
     <string name="desc_player_activity">Now Playing your selected media file:</string>
     <string name="currentFileName">Hey Jude.mp3</string>
     <string name="currentPerformer">The Beatles</string>
