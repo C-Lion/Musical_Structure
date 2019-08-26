@@ -64,6 +64,16 @@
 
 
     <!-- Strings on activity_recently_played (Recently Played) -->
+    <string name="recently_played_label">Recently Played Activity</string>
+    <string name="recently_played_description">
+        The first TextViews/Button allows the user to return to the home activity.\n
+        The next option opens up the list of 10 most frequently played Favorites\n
+        The other option opens a list of 10 most frequently played\n
+        regardless of whether they are marked as favorites or not.\n
+    </string>
+
+
+
     <!-- Reuse: <string name="goHome"> -->
     <!-- Reuse: <string name="displayTop10Favorites"> -->
     <string name="displayTop10ofALL">See my top 10: faves or not!</string>

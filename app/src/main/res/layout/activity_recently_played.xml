@@ -9,6 +9,25 @@
     tools:context=".RecentlyPlayed">
 
     <TextView
+        android:id="@+id/recently_played_activity_label"
+        style="@style/ActivityStyle"
+        android:background="@color/background"
+        android:text="@string/recently_played_label"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/recently_played_description"
+        style="@style/ActivityStyle"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:scrollbars="vertical"
+        android:text="@string/recently_played_description"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+
+
+    <TextView
         android:id="@+id/recentBackToHome"
         style="@style/ActivityStyle"
         android:background="@color/player_activity"
