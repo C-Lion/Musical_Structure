@@ -1,5 +1,6 @@
 package com.example.musicplayer;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -23,5 +24,20 @@ public class RecentlyPlayed extends AppCompatActivity {
                 finish();
             }
         });
+
+        //onClick listener for openPlayerFromRecents in Recently Played activity
+        //First find the View that shows the Player activity link area:
+        TextView openPlayerFromRecents = (TextView) findViewById(R.id.openPlayerFromRecents);
+        // Set a click listener on the player TextView
+        openPlayerFromRecents.setOnClickListener(new View.OnClickListener() {
+            //The method that executes when the openPlayerInMedia TextView is clicked on:
+            @Override
+            public void onClick(View view) {
+                Intent openPlayerActivity = new Intent(RecentlyPlayed.this, PlaySong.class);
+                startActivity(openPlayerActivity);
+            }
+        });
+
+
     }
 }

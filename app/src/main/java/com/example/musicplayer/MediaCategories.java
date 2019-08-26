@@ -1,5 +1,6 @@
 package com.example.musicplayer;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -23,6 +24,19 @@ public class MediaCategories extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+            }
+        });
+
+        //onClick listener for openPlayerFromMedia in Media activity
+        //First find the View that shows the Player activity link area:
+        TextView openPlayerFromMedia = (TextView) findViewById(R.id.openPlayerFromMedia);
+        // Set a click listener on the player TextView
+        openPlayerFromMedia.setOnClickListener(new View.OnClickListener() {
+            //The method that executes when the openPlayerInMedia TextView is clicked on:
+            @Override
+            public void onClick(View view) {
+                Intent openPlayerActivity = new Intent(MediaCategories.this, PlaySong.class);
+                startActivity(openPlayerActivity);
             }
         });
 

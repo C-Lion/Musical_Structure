@@ -1,48 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background"
-    android:orientation="vertical"
-    tools:context=".RecentlyPlayed">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/recently_played_activity_label"
-        style="@style/ActivityStyle"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="@color/background"
-        android:text="@string/recently_played_label"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textStyle="bold" />
+        android:orientation="vertical"
+        tools:context=".RecentlyPlayed">
 
-    <TextView
-        android:id="@+id/recently_played_description"
-        style="@style/ActivityStyle"
-        android:layout_height="wrap_content"
-        android:background="@color/background"
-        android:scrollbars="vertical"
-        android:text="@string/recently_played_description"
-        android:textAppearance="?android:textAppearanceSmall" />
+        <TextView
+            android:id="@+id/recently_played_activity_label"
+            style="@style/ActivityStyle"
+            android:background="@color/background"
+            android:text="@string/recently_played_label"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/recently_played_description"
+            style="@style/ActivityStyle"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:scrollbars="vertical"
+            android:text="@string/recently_played_description"
+            android:textAppearance="?android:textAppearanceSmall" />
 
+        <TextView
+            android:id="@+id/recentBackToHome"
+            style="@style/ActivityStyle"
+            android:background="@color/favorites_background"
+            android:text="@string/goHome" />
 
-    <TextView
-        android:id="@+id/recentBackToHome"
-        style="@style/ActivityStyle"
-        android:background="@color/player_activity"
-        android:text="@string/goHome" />
+        <TextView
+            android:id="@+id/RecentsTop10"
+            style="@style/ActivityStyle"
+            android:background="@color/media_activity"
+            android:text="@string/displayTop10Favorites" />
 
-    <TextView
-        android:id="@+id/RecentsTop10"
-        style="@style/ActivityStyle"
-        android:background="@color/media_activity"
-        android:text="@string/displayTop10Favorites" />
+        <TextView
+            android:id="@+id/RecentsALL"
+            style="@style/ActivityStyle"
+            android:background="@color/buy_activity"
+            android:text="@string/displayTop10ofALL" />
 
-    <TextView
-        android:id="@+id/RecentsALL"
-        style="@style/ActivityStyle"
-        android:background="@color/buy_activity"
-        android:text="@string/displayTop10ofALL" />
+        <TextView
+            android:id="@+id/openPlayerFromRecents"
+            style="@style/ActivityStyle"
+            android:background="@color/player_activity"
+            android:text="@string/openPlayerFromRecents" />
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

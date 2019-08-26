@@ -28,11 +28,10 @@
             android:text="@string/activity_media_categories_description"
             android:textAppearance="?android:textAppearanceSmall" />
 
-
         <TextView
             android:id="@+id/MediaBackToHome"
             style="@style/ActivityStyle"
-            android:background="@color/player_activity"
+            android:background="@color/favorites_background"
             android:text="@string/goHome" />
 
         <TextView
@@ -46,6 +45,12 @@
             style="@style/ActivityStyle"
             android:background="@color/buy_activity"
             android:text="@string/displayFullMediaCatalog" />
+
+        <TextView
+            android:id="@+id/openPlayerFromMedia"
+            style="@style/ActivityStyle"
+            android:background="@color/player_activity"
+            android:text="@string/openPlayerInMedia" />
 
     </LinearLayout>
 </ScrollView>

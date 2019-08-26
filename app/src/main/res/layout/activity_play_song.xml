@@ -97,7 +97,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="32dp"
-                android:src="@drawable/playstop" />
+                android:src="@drawable/playstop"
+                android:contentDescription="@string/playStopButtonDescription"/>
 
             <Button
                 android:id="@+id/goToMediaCatalogButton"

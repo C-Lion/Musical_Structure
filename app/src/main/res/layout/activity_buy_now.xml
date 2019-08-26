@@ -28,9 +28,6 @@
             android:text="@string/buy_now_activity_description"
             android:textAppearance="?android:textAppearanceSmall" />
 
-
-
-
         <TextView
             android:id="@+id/NotReadyToPay"
             style="@style/ActivityStyle"
@@ -44,7 +41,6 @@
             android:layout_width="match_parent"
             android:background="@color/background"
             android:text="@string/ready_to_pay" />
-
 
         <TextView
             style="@style/ActivityStyle"
