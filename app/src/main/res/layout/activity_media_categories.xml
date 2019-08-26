@@ -29,28 +29,28 @@
             android:textAppearance="?android:textAppearanceSmall" />
 
         <TextView
-            android:id="@+id/MediaBackToHome"
+            android:id="@+id/media_back_to_home"
             style="@style/ActivityStyle"
             android:background="@color/favorites_background"
-            android:text="@string/goHome" />
+            android:text="@string/go_home" />
 
         <TextView
-            android:id="@+id/top10Favorites"
+            android:id="@+id/top_ten_favorites"
             style="@style/ActivityStyle"
             android:background="@color/media_activity"
-            android:text="@string/displayTop10Favorites" />
+            android:text="@string/display_recents_top_ten_favorites" />
 
         <TextView
-            android:id="@+id/goToFullMediaCatalog"
+            android:id="@+id/go_to_full_media_catalog"
             style="@style/ActivityStyle"
             android:background="@color/buy_activity"
-            android:text="@string/displayFullMediaCatalog" />
+            android:text="@string/display_full_media_catalog" />
 
         <TextView
-            android:id="@+id/openPlayerFromMedia"
+            android:id="@+id/open_player_from_media"
             style="@style/ActivityStyle"
             android:background="@color/player_activity"
-            android:text="@string/openPlayerInMedia" />
+            android:text="@string/open_player" />
 
     </LinearLayout>
 </ScrollView>

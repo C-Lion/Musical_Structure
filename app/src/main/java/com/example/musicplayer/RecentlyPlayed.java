@@ -15,9 +15,9 @@ public class RecentlyPlayed extends AppCompatActivity {
 
         //onClick listener for openPlayer activity
         //First find the View that shows the Player activity link area:
-        TextView recentBackToHome = (TextView) findViewById(R.id.recentBackToHome);
+        TextView recent_back_to_home = (TextView) findViewById(R.id.recent_back_to_home);
         // Set a click listener on the player TextView
-        recentBackToHome.setOnClickListener(new View.OnClickListener() {
+        recent_back_to_home.setOnClickListener(new View.OnClickListener() {
             //The method that executes when the Play Now TextView is clicked on:
             @Override
             public void onClick(View view) {
@@ -27,9 +27,9 @@ public class RecentlyPlayed extends AppCompatActivity {
 
         //onClick listener for openPlayerFromRecents in Recently Played activity
         //First find the View that shows the Player activity link area:
-        TextView openPlayerFromRecents = (TextView) findViewById(R.id.openPlayerFromRecents);
+        TextView open_player_from_recents = (TextView) findViewById(R.id.open_player_from_recents);
         // Set a click listener on the player TextView
-        openPlayerFromRecents.setOnClickListener(new View.OnClickListener() {
+        open_player_from_recents.setOnClickListener(new View.OnClickListener() {
             //The method that executes when the openPlayerInMedia TextView is clicked on:
             @Override
             public void onClick(View view) {

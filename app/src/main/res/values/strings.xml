@@ -27,13 +27,12 @@
         This functionality will be implemented using the PlaySong class.\n
     </string>
     <string name="desc_player_activity">Now Playing your selected media file:</string>
-    <string name="currentFileName">Hey Jude.mp3</string>
-    <string name="currentPerformer">The Beatles</string>
-    <string name="currentCategory">Rock</string>
-    <string name="checkbox_label">Add to Favorites</string>
-    <string name="newSelection">Select from Library</string>
-    <string name="goHome">OOPS! Return to previous activity</string>
-    <string name="playStopButtonDescription">Toggle Button to Start or Stop playing the queued file.</string>
+    <string name="current_file_name">Hey Jude.mp3</string>
+    <string name="current_performer">The Beatles</string>
+    <string name="current_category">Rock</string>
+    <string name="checkbox_favorites_label">Add to Favorites</string>
+    <string name="go_home">OOPS! Return to previous activity</string>
+    <string name="play_stop_toggle_button_image_description">Toggle Button to Start or Stop playing the queued file.</string>
 
 
     <!-- Strings on activity_media_categories (Media Catalog) -->
@@ -48,9 +47,9 @@
         If no selection is made, the Player will open with the last played file still loaded.
     </string>
     <!-- Reuse: <string name="goHome"> -->
-    <string name="displayTop10Favorites">See my top 10 Favorites</string>
-    <string name="displayFullMediaCatalog">Open Full Media List</string>
-    <string name="openPlayerInMedia">Open Player</string>
+    <string name="display_recents_top_ten_favorites">See my top 10 Favorites</string>
+    <string name="display_full_media_catalog">Open Full Media List</string>
+    <string name="open_player">Open Player</string>
 
 
     <!-- Strings on activity_buy-now (Buy More Songs) -->
@@ -62,7 +61,7 @@
         Once the checkbox is checked, the Google Pay API runs the checkout and cc payment sequence.\n
         This functionality will be implemented using the BuyNow class.\n
     </string>
-    <string name="notReadyToCheckout">OOPS! Not ready to buy yet: Please take me back!</string>
+    <string name="not_ready_to_pay">OOPS! Not ready to buy yet: Please take me back!</string>
     <string name="desc_buy_activity">Use Google Pay to buy songs:</string>
     <string name="pay_step_one">1. User selects a song to buy on Goggle Play. </string>
     <string name="pay_step_three">2. After a selection is made, the user MUST FIRST tick the\n
@@ -70,7 +69,7 @@
     <string name="pay_step_four">3. Once it appears, user clicks on the GPay button to begin the\n
         checkout sequence of the GPay API starting with the loadPaymentData(request) process.</string>
     <string name="pay_step_five">4. Payment data object is returned as an Activity result and token.</string>
-    <string name="ready_to_pay">Ready to Checkout</string>
+    <string name="checkbox_ready_to_pay">Ready to Checkout</string>
 
 
     <!-- Strings on activity_recently_played (Recently Played) -->
@@ -87,8 +86,8 @@
     </string>
     <!-- Reuse: <string name="goHome"> -->
     <!-- Reuse: <string name="displayTop10Favorites"> -->
-    <string name="displayTop10ofALL">See my top 10: faves or not!</string>
-    <string name="openPlayerFromRecents">Open Player</string>
+    <string name="display_recents_all">See my top 10: faves or not!</string>
+    <string name="open_player_from_recents">Open Player</string>
 
 
 </resources>

@@ -29,18 +29,18 @@
             android:textAppearance="?android:textAppearanceSmall" />
 
         <TextView
-            android:id="@+id/NotReadyToPay"
+            android:id="@+id/not_ready_to_pay"
             style="@style/ActivityStyle"
             android:layout_width="match_parent"
             android:background="@color/favorites_background"
-            android:text="@string/notReadyToCheckout" />
+            android:text="@string/not_ready_to_pay" />
 
         <CheckBox
-            android:id="@+id/checkboxReadyToPay"
+            android:id="@+id/checkbox_ready_to_pay"
             style="@style/ActivityStyle"
             android:layout_width="match_parent"
             android:background="@color/background"
-            android:text="@string/ready_to_pay" />
+            android:text="@string/checkbox_ready_to_pay" />
 
         <TextView
             style="@style/ActivityStyle"
@@ -74,9 +74,10 @@
 
         <!-- ONLY APPEARS IF isReadyToPay() returns true -->
         <ImageButton
+            android:id="@+id/player_toggle_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/isReadyToPay"
+            android:layout_below="@+id/checkbox_ready_to_pay"
             android:layout_margin="32dp"
             android:src="@drawable/googlepay" />
 

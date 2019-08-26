@@ -17,9 +17,9 @@ public class MediaCategories extends AppCompatActivity {
 
         //onClick listener for Return to Home activity
         //First find the View that shows the Return to Home activity link area:
-        TextView MediaBackToHome = (TextView) findViewById(R.id.MediaBackToHome);
+        TextView media_back_to_home = (TextView) findViewById(R.id.media_back_to_home);
         // Set a click listener on the player TextView
-        MediaBackToHome.setOnClickListener(new View.OnClickListener() {
+        media_back_to_home.setOnClickListener(new View.OnClickListener() {
             //The method that executes when the Play Now TextView is clicked on:
             @Override
             public void onClick(View view) {
@@ -29,9 +29,9 @@ public class MediaCategories extends AppCompatActivity {
 
         //onClick listener for openPlayerFromMedia in Media activity
         //First find the View that shows the Player activity link area:
-        TextView openPlayerFromMedia = (TextView) findViewById(R.id.openPlayerFromMedia);
+        TextView open_player_from_media = (TextView) findViewById(R.id.open_player_from_media);
         // Set a click listener on the player TextView
-        openPlayerFromMedia.setOnClickListener(new View.OnClickListener() {
+        open_player_from_media.setOnClickListener(new View.OnClickListener() {
             //The method that executes when the openPlayerInMedia TextView is clicked on:
             @Override
             public void onClick(View view) {

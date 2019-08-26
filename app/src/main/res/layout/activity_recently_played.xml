@@ -29,28 +29,28 @@
             android:textAppearance="?android:textAppearanceSmall" />
 
         <TextView
-            android:id="@+id/recentBackToHome"
+            android:id="@+id/recent_back_to_home"
             style="@style/ActivityStyle"
             android:background="@color/favorites_background"
-            android:text="@string/goHome" />
+            android:text="@string/go_home" />
 
         <TextView
-            android:id="@+id/RecentsTop10"
+            android:id="@+id/recents_top_ten_favorites"
             style="@style/ActivityStyle"
             android:background="@color/media_activity"
-            android:text="@string/displayTop10Favorites" />
+            android:text="@string/display_recents_top_ten_favorites" />
 
         <TextView
-            android:id="@+id/RecentsALL"
+            android:id="@+id/recents_all"
             style="@style/ActivityStyle"
             android:background="@color/buy_activity"
-            android:text="@string/displayTop10ofALL" />
+            android:text="@string/display_recents_all" />
 
         <TextView
-            android:id="@+id/openPlayerFromRecents"
+            android:id="@+id/open_player_from_recents"
             style="@style/ActivityStyle"
             android:background="@color/player_activity"
-            android:text="@string/openPlayerFromRecents" />
+            android:text="@string/open_player_from_recents" />
 
     </LinearLayout>
 </ScrollView>

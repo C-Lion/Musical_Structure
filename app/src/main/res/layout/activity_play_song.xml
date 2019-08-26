@@ -29,12 +29,12 @@
             android:textAppearance="?android:textAppearanceSmall" />
 
         <TextView
-            android:id="@+id/PlayerBackToHomeButton"
+            android:id="@+id/player_back_to_home_button"
             style="@style/ActivityStyle"
             android:background="@color/favorites_background"
             android:color="@android:color/white"
             android:orientation="horizontal"
-            android:text="@string/goHome" />
+            android:text="@string/go_home" />
 
         <TextView
             style="@style/ActivityStyle"
@@ -43,22 +43,25 @@
             android:text="@string/desc_player_activity" />
 
         <TextView
+            android:id="@+id/current_file_name"
             style="@style/ActivityStyle"
             android:background="@color/song_background"
             android:color="@android:color/white"
-            android:text="@string/currentFileName" />
+            android:text="@string/current_file_name" />
 
         <TextView
+            android:id="@+id/current_performer"
             style="@style/ActivityStyle"
             android:background="@color/player_activity"
             android:color="@android:color/white"
-            android:text="@string/currentPerformer" />
+            android:text="@string/current_performer" />
 
         <TextView
+            android:id="@+id/current_category"
             style="@style/ActivityStyle"
             android:background="@color/song_background"
             android:color="@android:color/white"
-            android:text="@string/currentCategory" />
+            android:text="@string/current_category" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -68,7 +71,7 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/checkBox_Add_To_Favorites"
+                android:id="@+id/checkbox_add_to_Favorites"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -77,12 +80,12 @@
                 android:buttonTint="@android:color/white" />
 
             <TextView
-                android:id="@+id/textView_Favorites_label"
+                android:id="@+id/checkbox_favorites_label"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="4"
                 android:padding="16dp"
-                android:text="@string/checkbox_label"
+                android:text="@string/checkbox_favorites_label"
                 android:textColor="@android:color/white"
                 android:textSize="25sp" />
         </LinearLayout>
@@ -93,19 +96,19 @@
             android:gravity="center_horizontal">
 
             <ImageButton
-                android:id="@+id/playStopButton"
+                android:id="@+id/play_stop_toggle_button_image"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="32dp"
                 android:src="@drawable/playstop"
-                android:contentDescription="@string/playStopButtonDescription"/>
+                android:contentDescription="@string/play_stop_toggle_button_image_description"/>
 
             <Button
-                android:id="@+id/goToMediaCatalogButton"
+                android:id="@+id/go_to_media_from_player"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/playStopButton"
-                android:text="@string/newSelection" />
+                android:layout_below="@+id/play_stop_toggle_button_image"
+                android:text="@string/open_player" />
         </RelativeLayout>
 
     </LinearLayout>

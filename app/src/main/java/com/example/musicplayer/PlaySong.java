@@ -15,9 +15,9 @@ public class PlaySong extends AppCompatActivity {
 
         //onClick listener for openMediaCategory from the Select from Library Button
         // Find the View that shows the media category activity
-        TextView goToMediaCatalogButton = (TextView) findViewById(R.id.goToMediaCatalogButton);
+        TextView go_to_media_from_player = (TextView) findViewById(R.id.go_to_media_from_player);
         // Set a click listener on media view
-        goToMediaCatalogButton.setOnClickListener(new View.OnClickListener() {
+        go_to_media_from_player.setOnClickListener(new View.OnClickListener() {
             //Code to run when select media catalog is clicked on
             @Override
             public void onClick(View view) {
@@ -28,9 +28,9 @@ public class PlaySong extends AppCompatActivity {
         
         //onClick listener for Return to Home Button
         //First find the View that shows the Return to Home activity link area:
-        TextView PlayerBackToHomeButton = (TextView) findViewById(R.id.PlayerBackToHomeButton);
+        TextView player_back_to_home_button = (TextView) findViewById(R.id.player_back_to_home_button);
         // Set a click listener on the player TextView
-        PlayerBackToHomeButton.setOnClickListener(new View.OnClickListener() {
+        player_back_to_home_button.setOnClickListener(new View.OnClickListener() {
             //The method that executes when the Play Now TextView is clicked on:
             @Override
             public void onClick(View view) {
