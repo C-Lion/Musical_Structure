@@ -25,7 +25,7 @@ public class PlaySong extends AppCompatActivity {
                 startActivity(openMediaCatalog);
             }
         });
-        
+
         //onClick listener for Return to Home Button
         //First find the View that shows the Return to Home activity link area:
         TextView player_back_to_home_button = (TextView) findViewById(R.id.player_back_to_home_button);
