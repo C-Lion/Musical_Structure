@@ -6,13 +6,13 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/background"
         android:orientation="vertical"
         tools:context=".PlaySong">
 
         <TextView
-            android:id="@+id/activity_play_song_label"
+            android:id="@+id/play_song_activity_label"
             style="@style/ActivityStyle"
             android:background="@color/background"
             android:text="@string/activity_play_song_label"
@@ -20,7 +20,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/activity_play_song_description"
+            android:id="@+id/play_song_activity_description"
             style="@style/ActivityStyle"
             android:layout_height="wrap_content"
             android:background="@color/background"
@@ -28,6 +28,13 @@
             android:text="@string/activity_play_song_description"
             android:textAppearance="?android:textAppearanceSmall" />
 
+        <TextView
+            android:id="@+id/PlayerBackToHomeButton"
+            style="@style/ActivityStyle"
+            android:background="@color/favorites_background"
+            android:color="@android:color/white"
+            android:orientation="horizontal"
+            android:text="@string/goHome" />
 
         <TextView
             style="@style/ActivityStyle"
@@ -61,7 +68,7 @@
             android:orientation="horizontal">
 
             <CheckBox
-                android:id="@+id/checkBoxFavorites"
+                android:id="@+id/checkBox_Add_To_Favorites"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="16dp"
@@ -98,13 +105,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/playStopButton"
                 android:text="@string/newSelection" />
-
-            <Button
-                android:id="@+id/PlayerBackToHomeButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/goToMediaCatalogButton"
-                android:text="@string/goHome" />
         </RelativeLayout>
 
     </LinearLayout>

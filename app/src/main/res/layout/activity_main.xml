@@ -4,16 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout 
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/background"
         android:orientation="vertical"
         tools:context=".MainActivity">
 
         <TextView
-            android:id="@+id/activity_main_label"
+            android:id="@+id/main_activity_label"
             style="@style/ActivityStyle"
             android:background="@color/background"
             android:text="@string/activity_main_label"
@@ -21,7 +20,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/activity_main_description"
+            android:id="@+id/main__activity_description"
             style="@style/ActivityStyle"
             android:layout_height="wrap_content"
             android:background="@color/background"

@@ -1,65 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background"
-    android:orientation="vertical"
-    tools:context=".BuyNow">
+    android:layout_height="match_parent">
 
-    <TextView
-        style="@style/ActivityStyle"
-        android:id="@+id/NotReadyToPay"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:background="@color/favorites_background"
-        android:text="@string/notReadyToCheckout" />
-
-    <CheckBox
-        style="@style/ActivityStyle"
-        android:id="@+id/checkboxReadyToPay"
-        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:background="@color/background"
-        android:text="@string/ready_to_pay" />
+        android:orientation="vertical"
+        tools:context=".BuyNow">
+
+        <TextView
+            android:id="@+id/buy_now_activity_label"
+            style="@style/ActivityStyle"
+            android:background="@color/background"
+            android:text="@string/buy_now_activity_label"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/buy_now_activity_description"
+            style="@style/ActivityStyle"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:scrollbars="vertical"
+            android:text="@string/buy_now_activity_description"
+            android:textAppearance="?android:textAppearanceSmall" />
 
 
-    <TextView
-        style="@style/ActivityStyle"
-        android:background="@color/player_activity"
-        android:text="@string/desc_buy_activity"
-        android:color="@android:color/white" />
 
-    <TextView
-        style="@style/ActivityStyle"
-        android:background="@color/song_background"
-        android:text="@string/pay_step_one"
-        android:color="@android:color/white"/>
 
-    <TextView
-        style="@style/ActivityStyle"
-        android:background="@color/player_activity"
-        android:text="@string/pay_step_three"
-        android:color="@android:color/white"/>
+        <TextView
+            android:id="@+id/NotReadyToPay"
+            style="@style/ActivityStyle"
+            android:layout_width="match_parent"
+            android:background="@color/favorites_background"
+            android:text="@string/notReadyToCheckout" />
 
-    <TextView
-        style="@style/ActivityStyle"
-        android:background="@color/song_background"
-        android:text="@string/pay_step_four"
-        android:color="@android:color/white"/>
+        <CheckBox
+            android:id="@+id/checkboxReadyToPay"
+            style="@style/ActivityStyle"
+            android:layout_width="match_parent"
+            android:background="@color/background"
+            android:text="@string/ready_to_pay" />
 
-    <TextView
-        style="@style/ActivityStyle"
-        android:background="@color/player_activity"
-        android:text="@string/pay_step_five"
-        android:color="@android:color/white"/>
+
+        <TextView
+            style="@style/ActivityStyle"
+            android:background="@color/player_activity"
+            android:color="@android:color/white"
+            android:text="@string/desc_buy_activity" />
+
+        <TextView
+            style="@style/ActivityStyle"
+            android:background="@color/song_background"
+            android:color="@android:color/white"
+            android:text="@string/pay_step_one" />
+
+        <TextView
+            style="@style/ActivityStyle"
+            android:background="@color/player_activity"
+            android:color="@android:color/white"
+            android:text="@string/pay_step_three" />
+
+        <TextView
+            style="@style/ActivityStyle"
+            android:background="@color/song_background"
+            android:color="@android:color/white"
+            android:text="@string/pay_step_four" />
+
+        <TextView
+            style="@style/ActivityStyle"
+            android:background="@color/player_activity"
+            android:color="@android:color/white"
+            android:text="@string/pay_step_five" />
 
         <!-- ONLY APPEARS IF isReadyToPay() returns true -->
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="32dp"
-        android:src="@drawable/googlepay"
-        android:layout_below="@+id/isReadyToPay" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/isReadyToPay"
+            android:layout_margin="32dp"
+            android:src="@drawable/googlepay" />
 
-</LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,29 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background"
-    android:orientation="vertical"
-    tools:context=".MediaCategories">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/MediaBackToHome"
-        style="@style/ActivityStyle"
-        android:background="@color/player_activity"
-        android:text="@string/goHome" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical"
+        tools:context=".MediaCategories">
 
-    <TextView
-        android:id="@+id/top10Favorites"
-        style="@style/ActivityStyle"
-        android:background="@color/media_activity"
-        android:text="@string/displayTop10Favorites" />
+        <TextView
+            android:id="@+id/media_categories_activity_label"
+            style="@style/ActivityStyle"
+            android:background="@color/background"
+            android:text="@string/activity_media_categories_label"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/goToFullMediaCatalog"
-        style="@style/ActivityStyle"
-        android:background="@color/buy_activity"
-        android:text="@string/displayFullMediaCatalog" />
+        <TextView
+            android:id="@+id/media_categories_activity_description"
+            style="@style/ActivityStyle"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:scrollbars="vertical"
+            android:text="@string/activity_media_categories_description"
+            android:textAppearance="?android:textAppearanceSmall" />
 
-</LinearLayout>
+
+        <TextView
+            android:id="@+id/MediaBackToHome"
+            style="@style/ActivityStyle"
+            android:background="@color/player_activity"
+            android:text="@string/goHome" />
+
+        <TextView
+            android:id="@+id/top10Favorites"
+            style="@style/ActivityStyle"
+            android:background="@color/media_activity"
+            android:text="@string/displayTop10Favorites" />
+
+        <TextView
+            android:id="@+id/goToFullMediaCatalog"
+            style="@style/ActivityStyle"
+            android:background="@color/buy_activity"
+            android:text="@string/displayFullMediaCatalog" />
+
+    </LinearLayout>
+</ScrollView>
