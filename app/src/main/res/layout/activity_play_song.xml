@@ -1,113 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent" >
-
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background"
-    android:orientation="vertical"
-    tools:context=".PlaySong">
-
-    <TextView
-        android:id="@+id/activity_play_song_label"
-        style="@style/ActivityStyle"
-        android:background="@color/background"
-        android:text="@string/activity_play_song_label"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:id="@+id/activity_play_song_description"
-        style="@style/ActivityStyle"
-        android:background="@color/background"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceSmall"
-        android:text="@string/activity_play_song_description"
-        android:scrollbars = "vertical" />
-
-
-
-    <TextView
-        style="@style/ActivityStyle"
-        android:background="@color/player_activity"
-        android:text="@string/desc_player_activity"
-        android:color="@android:color/white" />
-
-    <TextView
-        style="@style/ActivityStyle"
-        android:background="@color/song_background"
-        android:text="@string/currentFileName"
-        android:color="@android:color/white"/>
-
-    <TextView
-        style="@style/ActivityStyle"
-        android:background="@color/player_activity"
-        android:text="@string/currentPerformer"
-        android:color="@android:color/white"/>
-
-    <TextView
-        style="@style/ActivityStyle"
-        android:background="@color/song_background"
-        android:text="@string/currentCategory"
-        android:color="@android:color/white"/>
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:color="@android:color/white"
-        android:background="@color/favorites_background">
-
-        <CheckBox
-            android:id="@+id/checkBoxFavorites"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_weight="1"
-            android:buttonTint="@android:color/white"/>
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        tools:context=".PlaySong">
 
         <TextView
-            android:id="@+id/textView_Favorites_label"
-            android:layout_width="0dp"
+            android:id="@+id/activity_play_song_label"
+            style="@style/ActivityStyle"
+            android:background="@color/background"
+            android:text="@string/activity_play_song_label"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/activity_play_song_description"
+            style="@style/ActivityStyle"
             android:layout_height="wrap_content"
-            android:layout_weight="4"
-            android:padding="16dp"
-            android:text="@string/checkbox_label"
-            android:textColor="@android:color/white"
-            android:textSize="25sp" />
+            android:background="@color/background"
+            android:scrollbars="vertical"
+            android:text="@string/activity_play_song_description"
+            android:textAppearance="?android:textAppearanceSmall" />
+
+
+        <TextView
+            style="@style/ActivityStyle"
+            android:background="@color/player_activity"
+            android:color="@android:color/white"
+            android:text="@string/desc_player_activity" />
+
+        <TextView
+            style="@style/ActivityStyle"
+            android:background="@color/song_background"
+            android:color="@android:color/white"
+            android:text="@string/currentFileName" />
+
+        <TextView
+            style="@style/ActivityStyle"
+            android:background="@color/player_activity"
+            android:color="@android:color/white"
+            android:text="@string/currentPerformer" />
+
+        <TextView
+            style="@style/ActivityStyle"
+            android:background="@color/song_background"
+            android:color="@android:color/white"
+            android:text="@string/currentCategory" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/favorites_background"
+            android:color="@android:color/white"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/checkBoxFavorites"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_weight="1"
+                android:buttonTint="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView_Favorites_label"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:padding="16dp"
+                android:text="@string/checkbox_label"
+                android:textColor="@android:color/white"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/playStopButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="32dp"
+                android:src="@drawable/playstop" />
+
+            <Button
+                android:id="@+id/goToMediaCatalogButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/playStopButton"
+                android:text="@string/newSelection" />
+
+            <Button
+                android:id="@+id/PlayerBackToHomeButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/goToMediaCatalogButton"
+                android:text="@string/goHome" />
+        </RelativeLayout>
+
     </LinearLayout>
-
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:gravity="center_horizontal">
-        <ImageButton
-            android:id="@+id/playStopButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="32dp"
-            android:src="@drawable/playstop" />
-
-        <Button
-            android:id="@+id/goToMediaCatalogButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/newSelection"
-            android:layout_below="@+id/playStopButton" />
-
-        <Button
-            android:id="@+id/PlayerBackToHomeButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/goHome"
-            android:layout_below="@+id/goToMediaCatalogButton" />
-    </RelativeLayout>
-
-</LinearLayout>
 </ScrollView>

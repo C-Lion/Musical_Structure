@@ -1,52 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/activity_main_label"
-        style="@style/ActivityStyle"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:background="@color/background"
-        android:text="@string/activity_main_label"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:textStyle="bold"/>
+        android:orientation="vertical"
+        tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/activity_main_description"
-        style="@style/ActivityStyle"
-        android:background="@color/background"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:textAppearanceSmall"
-        android:text="@string/activity_main_description"
-        android:scrollbars = "vertical" />
+        <TextView
+            android:id="@+id/activity_main_label"
+            style="@style/ActivityStyle"
+            android:background="@color/background"
+            android:text="@string/activity_main_label"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/player"
-        style="@style/ActivityStyle"
-        android:background="@color/player_activity"
-        android:text="@string/activity_player" />
+        <TextView
+            android:id="@+id/activity_main_description"
+            style="@style/ActivityStyle"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:scrollbars="vertical"
+            android:text="@string/activity_main_description"
+            android:textAppearance="?android:textAppearanceSmall" />
 
-    <TextView
-        android:id="@+id/media"
-        style="@style/ActivityStyle"
-        android:background="@color/media_activity"
-        android:text="@string/activity_media" />
+        <TextView
+            android:id="@+id/player"
+            style="@style/ActivityStyle"
+            android:background="@color/player_activity"
+            android:text="@string/activity_player" />
 
-    <TextView
-        android:id="@+id/buy"
-        style="@style/ActivityStyle"
-        android:background="@color/buy_activity"
-        android:text="@string/activity_buy" />
+        <TextView
+            android:id="@+id/media"
+            style="@style/ActivityStyle"
+            android:background="@color/media_activity"
+            android:text="@string/activity_media" />
 
-    <TextView
-        android:id="@+id/recent"
-        style="@style/ActivityStyle"
-        android:background="@color/recents_activity"
-        android:text="@string/activity_recents" />
+        <TextView
+            android:id="@+id/buy"
+            style="@style/ActivityStyle"
+            android:background="@color/buy_activity"
+            android:text="@string/activity_buy" />
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/recent"
+            style="@style/ActivityStyle"
+            android:background="@color/recents_activity"
+            android:text="@string/activity_recents" />
+
+    </LinearLayout>
+</ScrollView>
