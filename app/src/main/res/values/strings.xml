@@ -34,7 +34,6 @@
     <string name="go_home">OOPS! Return to previous activity</string>
     <string name="play_stop_toggle_button_image_description">Toggle Button to Start or Stop playing the queued file.</string>
 
-
     <!-- Strings on activity_media_categories (Media Catalog) -->
     <string name="activity_media_categories_label">Media Catalog Activity</string>
     <string name="activity_media_categories_description">
@@ -46,11 +45,9 @@
         If a selection is make from either list, it will be loaded into the Player.\n
         If no selection is made, the Player will open with the last played file still loaded.
     </string>
-    <!-- Reuse: <string name="goHome"> -->
     <string name="display_recents_top_ten_favorites">See my top 10 Favorites</string>
     <string name="display_full_media_catalog">Open Full Media List</string>
     <string name="open_player">Open Player</string>
-
 
     <!-- Strings on activity_buy-now (Buy More Songs) -->
     <string name="buy_now_activity_label">Buy Now Activity</string>
@@ -71,7 +68,6 @@
     <string name="pay_step_five">4. Payment data object is returned as an Activity result and token.</string>
     <string name="checkbox_ready_to_pay">Ready to Checkout</string>
 
-
     <!-- Strings on activity_recently_played (Recently Played) -->
     <string name="recently_played_label">Recently Played Activity</string>
     <string name="recently_played_description">
@@ -84,10 +80,7 @@
         If a selection is make from either list, it will be loaded into the Player.\n
         If no selection is made, the Player will open with the last played file still loaded.
     </string>
-    <!-- Reuse: <string name="goHome"> -->
-    <!-- Reuse: <string name="displayTop10Favorites"> -->
     <string name="display_recents_all">See my top 10: faves or not!</string>
     <string name="open_player_from_recents">Open Player</string>
-
 
 </resources>
